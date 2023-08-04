@@ -1,0 +1,8 @@
+{
+    "name":"book-seller-ui",
+    "buildpacks": [
+        {
+            "url": "heroku/nodejs"
+        }
+    ]
+}

@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+.custom-card{
+    width: 350px;
+    max-width: 100%;
+    background-color: #eee;
+}
+
+.user-icon{
+    font-size: 100px;
+    color: rgba(33, 133, 83, 0.459);
+}
+.alert-danger{
+    background-color: RGB(248, 215, 218);
+}
