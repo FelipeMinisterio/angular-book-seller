@@ -9,9 +9,9 @@ const targetPath = isProduction
 : `./src/environments/environment.ts`;
 
 const envFileContent = `
-export export const environment = {
+export const environment = {
     production: ${isProduction},
-    BASE_URL: '${process.env.BASE_URL}'
+    BASE_URL: "${process.env.BASE_URL}"
   };
 `;
 
